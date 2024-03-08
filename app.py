@@ -12,7 +12,6 @@ except subprocess.CalledProcessError as e:
     print(f"Error installing requirements: {e}")
 import streamlit as st
 import pandas as pd
-import whisper
 import tempfile
 psswd = "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"
 from huggingface_hub import login
