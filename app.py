@@ -1,5 +1,15 @@
 # IMPORTS-------------------------------------------------------------------------------------------
+import subprocess
 
+# Define the command to install requirements.txt
+command = "pip install -r requirements.txt"
+
+# Execute the command using subprocess
+try:
+    subprocess.run(command, shell=True, check=True)
+    print("Requirements installed successfully.")
+except subprocess.CalledProcessError as e:
+    print(f"Error installing requirements: {e}")
 import streamlit as st
 import pandas as pd
 import whisper
