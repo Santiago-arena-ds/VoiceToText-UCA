@@ -16,7 +16,7 @@ toml==0.10.2
 tzlocal==5.2
 validators==0.22.0
 watchdog==2.2.1
-pydeck==0.7.0
+pydeck==0.8.0
 smmap==5.0.1
 gitdb==4.0.2
 gitpython==3.1.42
