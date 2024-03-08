@@ -29,4 +29,4 @@ sacremoses==0.0.46
 tokenizers==0.14.0
 tqdm==4.66.2
 xxhash==3.4.1
-transformers==4.19.0
+transformers==4.20.0
