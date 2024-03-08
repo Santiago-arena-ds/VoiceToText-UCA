@@ -15,15 +15,15 @@ import pandas as pd
 import tempfile
 psswd = "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"
 from huggingface_hub import login
+import transformers
 login(psswd)
 from transformers import AutoTokenizer
 from transformers import AutoConfig
 import torch
-import transformers
+
 from transformers import AutoModelForCausalLM
 import os
 from transformers import AutoModelForSpeechSeq2Seq, AutoProcessor, pipeline
-from datasets import load_dataset
 import time
 
 
