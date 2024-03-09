@@ -20,6 +20,7 @@ login(psswd)
 from transformers import AutoTokenizer
 from transformers import AutoConfig
 import torch
+import accelerate
 
 from transformers import AutoModelForCausalLM
 import os
